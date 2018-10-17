@@ -26,13 +26,13 @@ long double
 }
 
 double round_up(double a){
-double liczba = a*100; //przesuwamy liczbê o precyzjê np: 0,123123 = 12,3123
+double liczba = a*100; //przesuwamy liczbÄ™ o precyzjÄ™ np: 0,123123 = 12,3123
 
         int b = (int)liczba; //robimy z tego int 12,3123 = 12
 
         liczba =(double)b/100; //przesuwamy do precyzji 12 = 0,12
 
-        return liczba; //zwracamy liczbê z precyzj¹ 2
+        return liczba; //zwracamy liczbÄ™ z precyzjÅ¡ 2
 }
 
 
@@ -58,7 +58,7 @@ while ((g(C)-f(C))<=x){
 }
 szerokosc += C;
 
-cout<<"Najmniejsza liczba naturalna C dla ktorej mo¿na umiescic prostokat 100 x 26,\n wewnatrz pola ograniczonego wykresem funkcji to: "<<C<<endl;
+cout<<"Najmniejsza liczba naturalna C dla ktorej moÅ¼na umiescic prostokat 100 x 26,\n wewnatrz pola ograniczonego wykresem funkcji to: "<<C<<endl;
 cout<<"Wierzcholki: "<<(g(C))<<", "<<(f(C))<<", "<<(g(szerokosc))<<", "<<(f(szerokosc))<<endl;
 
 
